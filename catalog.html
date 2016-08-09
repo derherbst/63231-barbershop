@@ -2,13 +2,147 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-<title>Каталог</title>
+<title>Магазин</title>
 </head>
 <body>
-<header>
-  
-</header>
-
-
+<header class="main-header">
+      <div class="container">
+      	<div class="catalog-logo">
+      		<img src="img/catalog-logo.svg" width="111" height="24" alt="Барбершоп «Бородинский»">
+      	</div>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+</header>    
+<h1>Средства для ухода</h1>
+<nav class="breadcrumbs">   <!--Или catalog-breadcrumbs?-->
+	<ul>
+		<li>Главная</li>
+		<li>Магазин</li>
+		<li>Средства для ухода</li>
+	</ul>		
+</nav>    	
+<div class="catalog-content">
+	<div class="catalog-content-left">
+		<div class="filter">
+			<h2>Производители:</h2>
+			<label>
+				Baxter of California<input>  <!-- так?-->
+			</label>
+			<label>
+				Mr Natty<input>
+			</label>
+			<label>
+				Suavecito<input>
+			</label>
+			<label>
+				Malin+Goetz<input>
+			</label>
+			<label>
+				Murray's<input>
+			</label>
+			<label>
+				American Crew<input>
+			</label>
+		</div>
+		<div class="product-type">
+			<h2>Группы товаров:</h2>
+			<label>
+				Бритвенные принадлежности<input>
+			</label>
+			<label>
+				Средства для ухода<input>
+			</label>
+			<label>
+				Аксессуары<input>
+			</label>
+		</div>
+		<a class="btn" href="#">Показать</a>
+	</div>
+	<div class="catalog-content-right">
+		<div class="catalog-items">
+			<article>
+				<img src="#">
+				<p>Набор для путешествий "Baxter of California"</p>
+				<span>2 900 руб.</span>
+				<a class="btn" href="#">Купить</a> <!-- так?-->
+			</article>
+			<article>
+				<img src="#">
+				<p>Увлажняющий кондиционер "Baxter of California"</p>
+				<span>750 руб.</span>
+				<a class="btn" href="#">Купить</a>
+			</article>
+			<article>
+				<img src="#">
+				<p>Гель для волос "Suavecito"</p>
+				<span>290 руб.</span>
+				<a class="btn" href="#">Купить</a>
+			</article>
+			<article>
+				<img src="#">
+				<p>Глина для укладки волос "American Crew"</p>
+				<span>500 руб.</span>
+				<a class="btn" href="#">Купить</a>
+			</article>
+			<article>
+				<img src="#">
+				<p>Гель для волос "American Crew"</p>
+				<span>300 руб.</span>
+				<a class="btn" href="#">Купить</a>
+			</article>
+			<article>
+				<img src="#">
+				<p>Набор для бриться "Baxter of California"</p>
+				<span>3 900 руб.</span>
+				<a class="btn" href="#">Купить</a>
+			</article>
+		</div>
+		<button class="catalog page-1">1</button>
+        <button class="catalog page-2">2</button>
+        <button class="catalog page-3">3</button>
+        <button class="catalog page-4">4</button>
+	</div>
+</div>
+<footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
 </body>
 </html>
