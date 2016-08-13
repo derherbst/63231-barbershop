@@ -43,43 +43,43 @@
 		<div>Средства для ухода</div>
 </div>   	
 <div class="catalog-content">
-	<aside class="catalog-content-left">
-		<div class="filter">
-			<h2>Производители:</h2>
-			<label>
-				Baxter of California<input>  <!-- так?-->
-			</label>
-			<label>
-				Mr Natty<input>
-			</label>
-			<label>
-				Suavecito<input>
-			</label>
-			<label>
-				Malin+Goetz<input>
-			</label>
-			<label>
-				Murray's<input>
-			</label>
-			<label>
-				American Crew<input>
-			</label>
-		</div>
-		<div class="product-type">
-			<h2>Группы товаров:</h2>
-			<label>
-				Бритвенные принадлежности<input>
-			</label>
-			<label>
-				Средства для ухода<input>
-			</label>
-			<label>
-				Аксессуары<input>
-			</label>
-		</div>
-		<a class="btn" href="#">Показать</a>
+	<aside>
+		<form class="content-filter">
+			<fieldset>
+				<legend>Производители:</legend>
+					<label>
+						<input type="checkbox" checked> Baxter of California
+					</label>
+					<label>
+						<input type="checkbox"> Mr Natty
+					</label>
+					<label>
+						<input type="checkbox" checked> Suavecito
+					</label>
+					<label>
+						<input type="checkbox"> Malin+Goetz
+					</label>
+					<label>
+						<input type="checkbox"> Murray's
+					</label>
+					<label>
+						<input type="checkbox" checked> American Crew
+					</label>
+				<legend>Группы товаров:</legend>
+					<label>
+						<input type="radio" name="item-group" value="shaving"> Бритвенные принадлежности
+					</label>
+					<label>
+						<input type="radio" name="item-group" value="care" checked> Средства для ухода
+					</label>
+					<label>
+						<input type="radio" name="item-group" value="accessories"> Аксессуары
+					</label>
+				<a class="btn" href="#">Показать</a>
+			</fieldset>
+		</form>
 	</aside>
-	<aside class="catalog-content-right">
+	<div class="catalog-content-right">
 		<div class="catalog-items">
 			<article>
 				<img src="#">
@@ -122,7 +122,7 @@
         <button class="catalog page-2">2</button>
         <button class="catalog page-3">3</button>
         <button class="catalog page-4">4</button>
-	</aside>
+	</div>
 </div>
 <footer class="main-footer">
       <div class="container">
